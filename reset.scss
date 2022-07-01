@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;500;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+@mixin b1{
+  background: none;
+  border: none;
+  width: 45px;
+  height: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: right;
+  color: #96BB7C;
+  transition: .4s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+@mixin b2{
+  width: 137px;
+  height: 52px;
+  background: #96BB7C;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  border: #96BB7C;
+  transition: .4s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+@mixin bt1{
+  background: #96BB7C;
+  border-radius: 5px;
+  width: 193px;
+  height: 52px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  border: 1px solid #96BB7C;
+  transition: .4s;
+  &:hover{
+    background: #FFFFFF;
+    color: #96BB7C;
+  }
+}
+@mixin bt2{
+  border: 1px solid #96BB7C;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: #96BB7C;
+  height: 52px;
+  width: 187px;
+  border-radius: 5px;
+  background: none;
+  transition: .4s;
+  &:hover{
+    background: #96BB7C;
+    color: #FFFFFF;
+  }
+}
+@mixin sale{
+  background: #E74040;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  width: 51px;
+  height: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
